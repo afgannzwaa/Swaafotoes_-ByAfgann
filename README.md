@@ -2,7 +2,7 @@
 
 # 📸 SwaaFotoes Studio By Afgan
 
-SwaaFotoes Studio adalah web-based self photo studio yang gue bikin buat kasih lo pengalaman foto ala booth premium. Aplikasi ini simpel, ringan, dan hasilnya bisa langsung lo download dengan filter yang udah nempel permanen.
+SwaaFotoess Studio adalah web-based self photo studio yang gue bikin buat kasih lo pengalaman foto ala booth premium. Aplikasi ini simpel, ringan, dan hasilnya bisa langsung lo download dengan filter yang udah nempel permanen.
 
 ---
 
