@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>SwaaFotoes Studio By Afgan | Eternal Titan</title>
+    <title>SwaaFotoes Studio By Afgan </title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -191,7 +191,7 @@
         }
 
         /* --- BAKING PROGRESS OVERLAY --- */
-        #baking-overlay {
+        #BAKING-overlay {
             position: fixed;
             inset: 0;
             background: var(--p-glass);
@@ -203,12 +203,12 @@
             z-index: 100000;
         }
 
-        .baking-progress-box {
+        .BAKING-progress-box {
             width: 280px;
             text-align: center;
         }
 
-        .baking-bar-track {
+        .BAKING-bar-track {
             width: 100%;
             height: 8px;
             background: #eee;
@@ -217,7 +217,7 @@
             overflow: hidden;
         }
 
-        .baking-bar-fill {
+        .BAKING-bar-fill {
             width: 0%;
             height: 100%;
             background: var(--p-gold);
@@ -381,13 +381,13 @@
 <body>
     <div id="flash-effect"></div>
 
-    <div id="baking-overlay">
+    <div id="BAKING-overlay">
         <img src="pindah1.png" class="ani-spin" style="width: 70px; margin-bottom: 25px;">
-        <div class="baking-progress-box">
-            <h2 style="font-weight: 800; letter-spacing: 1px;">BAKING STUDIO QUALITY</h2>
-            <p id="baking-status-text" style="font-size: 11px; color: var(--p-gold); font-weight: 700; margin-top: 10px; text-transform: uppercase;">Injecting Filters 0%</p>
-            <div class="baking-bar-track">
-                <div class="baking-bar-fill" id="baking-progress-fill"></div>
+        <div class="BAKING-progress-box">
+            <h2 style="font-weight: 800; letter-spacing: 1px;">MAKE STUDIO QUALITY</h2>
+            <p id="BAKING-status-text" style="font-size: 11px; color: var(--p-gold); font-weight: 700; margin-top: 10px; text-transform: uppercase;">Injecting Filters 0%</p>
+            <div class="BAKING-bar-track">
+                <div class="BAKING-bar-fill" id="BAKING-progress-fill"></div>
             </div>
         </div>
     </div>
@@ -400,7 +400,7 @@
 
     <main id="capture-scene" style="display:flex; flex-direction:column; align-items:center; width:100%;">
         <div class="header-container ani-fade">
-            <span>SwaaFotoes Studio V120</span>
+            <span>SwaaFotoes Studio</span>
             <h1>SwaaFotoes</h1>
         </div>
 
@@ -679,9 +679,9 @@
              * HIGH-RESOLUTION ASYNC BAKING ENGINE
              */
             async bakeFinalImage() {
-                const overlay = document.getElementById('baking-overlay');
-                const bar = document.getElementById('baking-progress-fill');
-                const text = document.getElementById('baking-status-text');
+                const overlay = document.getElementById('BAKING-overlay');
+                const bar = document.getElementById('BAKING-progress-fill');
+                const text = document.getElementById('BAKING-status-text');
                 
                 overlay.style.display = 'flex';
                 
